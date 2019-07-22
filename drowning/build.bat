@@ -1,0 +1,1 @@
+dart2js -o build/drowinginproblems.dart.js drowninginproblems.dart
