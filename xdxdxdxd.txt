@@ -1,1 +1,1 @@
-setTimeout(function(){document.querySelectorAll("#testtt").forEach((t) => {t.closest("div").getElementsByTagName("a")[0].href = "https://www.gr-oborona.ru/texts/1177698236.html";});}, 3000);
+setTimeout(function(){document.currentScript.closest("div").getElementsByTagName("a")[0].href = "https://www.gr-oborona.ru/texts/1177698236.html";}, 3000);
